@@ -1,0 +1,255 @@
+{
+	"After": {
+		"scope": "scss,css",
+		"prefix": "aft",
+		"body": [
+			"&::after{",
+			"  content: \"\";",
+			"  $1",
+			"}"
+		],
+		"description": "after疑似要素"
+	},
+	"Before": {
+		"scope": "scss,css",
+		"prefix": "bef",
+		"body": [
+			"&::before{",
+			"  content: \"\";",
+			"  $1",
+			"}"
+		],
+		"description": "before疑似要素"
+	},
+	"media query": {
+		"scope": "scss,css",
+		"prefix": "mq",
+		"body": [
+			"@include mq{",
+			"  $1",
+			"}"
+		],
+		"description": "メディアクエリ"
+	},
+	"media query sp": {
+		"scope": "scss,css",
+		"prefix": "mqsp",
+		"body": [
+			"@include mq(sp){",
+			"  $1",
+			"}"
+		],
+		"description": "メディアクエリ"
+	},
+	"media query pc": {
+		"scope": "scss,css",
+		"prefix": "mqpc",
+		"body": [
+			"@include mq(pc){",
+			"  $1",
+			"}"
+		],
+		"description": "メディアクエリ"
+	},
+	"media query tb": {
+		"scope": "scss,css",
+		"prefix": "mqtb",
+		"body": [
+			"@include mq(tb){",
+			"  $1",
+			"}"
+		],
+		"description": "メディアクエリ"
+	},
+	"scss comment": {
+		"scope": "scss,css",
+		"prefix": "cm",
+		"body": [
+			"/* $1",
+			"================================================ *\/",
+		],
+		"description": "CSS見出しコメント"
+	},
+	"pc_media_query": {
+		"scope": "scss,css",
+		"prefix": "pc",
+		"body": [
+			"@media all and (min-width: 600px) {\n\t$1\n}",
+		],
+		"description": "pcメディアクエリ"
+	},
+	"tablet_media_query": {
+		"scope": "scss,css",
+		"prefix": "tb",
+		"body": [
+			"@media all and (min-width: 768px) {\n\t$1\n}",
+		],
+		"description": "タブレット"
+	},
+	"sp_media_query": {
+		"scope": "scss,css",
+		"prefix": "sp",
+		"body": [
+			"@media all and (max-width: 599px) {\n\t$1\n}",
+		],
+		"description": "スマホ"
+	},
+	"hover": {
+		"scope": "scss,css",
+		"prefix": "hov",
+		"body": [
+			":hover{",
+			"  $1",
+			"}"
+		],
+		"description": "ホバー"
+	},
+	"transition": {
+		"scope": "scss,css",
+		"prefix": "trans",
+		"body": [
+			"@include trans;"
+		],
+		"description": "トランジション"
+	},
+	"ease .3s": {
+		"scope": "scss,css",
+		"prefix": "ease",
+		"body": [
+			"transition: all ease .3s;"
+		],
+		"description": "トランジション"
+	},
+	"php comment": {
+		"scope": "php,html",
+		"prefix": "cm",
+		"body": [
+			"<!-- /$1 -->"
+		],
+		"description": "CSS見出しコメント"
+	},
+	"target blank": {
+		"scope": "php,html",
+		"prefix": "tgb",
+		"body": [
+			"<a href='' rel='noopener noreferrer' target='_blank'>$1</a>"
+		],
+		"description": "CSS見出しコメント"
+	},
+	"arrow function": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "arw",
+		"body": [
+			"($1) => {$2}"
+		],
+		"description": "アロー関数"
+	},
+	"console log": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cl",
+		"body": [
+			"console.log($1)"
+		],
+		"description": "console.log"
+	},
+	"flex1": {
+		"scope": "scss,css",
+		"prefix": "f1",
+		"body": [
+			"flex: 1;"
+		],
+		"description": "flex1"
+	},
+	"php": {
+		"scope": "php,html",
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "php"
+	},
+	"stylesheet uri": {
+		"scope": "php,html",
+		"prefix": "suri",
+		"body": [
+			"<?php echo get_stylesheet_directory_uri(); ?>"
+		],
+		"description": "php"
+	},
+	"home url": {
+		"scope": "php,html",
+		"prefix": "huri",
+		"body": [
+			"<?php echo home_url(); ?>"
+		],
+		"description": "php"
+	},
+	"flex": {
+		"scope": "css",
+		"prefix": "df",
+		"body": [
+			"display: flex;",
+			"display: -ms-flex;",
+			"display: -webkit-flex;"
+		],
+		"description": "flex prefix"
+	},
+	"justify-content center": {
+		"scope": "css",
+		"prefix": "jcc",
+		"body": [
+			"justify-content: center;",
+			"-ms-justify-content: center;",
+			"-webkit-justify-content: center;"
+		],
+		"description": "flex prefix"
+	},
+	"flex wrap": {
+		"scope": "css",
+		"prefix": "fw",
+		"body": [
+			"flex-wrap: wrap;",
+			"-ms-flex-wrap: wrap;",
+			"-webkit-flex-wrap: wrap;"
+		],
+		"description": "flex prefix"
+	},
+	"justify-content space-between": {
+		"scope": "css",
+		"prefix": "jcs",
+		"body": [
+			"-webkit-box-pack: justify;",
+			"-ms-flex-pack: justify;",
+			"justify-content: space-between;"
+		],
+		"description": "flex prefix"
+	},
+	"note": {
+		"prefix": "note",
+		"body": [
+			"NOTE:",
+		],
+		"description": "note"
+	},
+	"todo": {
+		"prefix": "todo",
+		"body": [
+			"TODO:",
+		],
+		"description": "todo"
+	},
+	"fixme": {
+		"prefix": "fixme",
+		"body": [
+			"FIXME:",
+		],
+		"description": "fixme"
+	},
+	"mark": {
+		"prefix": "mk",
+		"body": [
+			"MARK:",
+		],
+		"description": "mark"
+	},
+}
