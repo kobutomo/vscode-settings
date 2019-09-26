@@ -1,4 +1,13 @@
 {
+    // "emmet.syntaxProfiles": {
+    //     "html": {
+    //         "filters": "html, bem"
+    //     }
+    // },
+    // "emmet.preferences": {
+    //     "bem.elementSeparator": "_",
+    //     "bem.shortElementPrefix": "-"
+    // },
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
@@ -13,6 +22,7 @@
     "workbench.sideBar.location": "right",
     "phpfmt.php_bin": "\"\\var\\php\\php.exe\"",
     "terminal.integrated.cursorStyle": "line",
+    "git.allowForcePush": true,
     "htmlhint.options": {
         "tagname-lowercase": false,
         "attr-lowercase": true,
